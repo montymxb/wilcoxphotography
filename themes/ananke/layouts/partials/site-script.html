@@ -1,0 +1,5 @@
+{{ range site.Params.custom_js }}
+  {{ with partialCached "func/style/GetResource" . . }}{{ else }}
+    <script src="{{ relURL (.) }}"></script>
+  {{ end }}
+{{ end }}
