@@ -1,0 +1,31 @@
+/* Main Site CSS */
+
+.measure-wide {
+  max-width: 1000px;
+}
+
+.pgallery {
+  display: block;
+}
+
+.pgallery .yt {
+  display: inline-block;
+  width: 350px;
+  padding: 4px;
+  margin: 8px;
+}
+
+.feature-img {
+    max-width: 350px;
+    text-align: center;
+    display: block;
+    margin: 1em auto;
+}
+
+.feature-img img {
+  border-radius: 400px;
+}
+
+input:hover {
+  cursor: pointer;
+}
