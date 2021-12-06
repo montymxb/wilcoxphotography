@@ -1,0 +1,63 @@
+title = "Hayden Wilcox"
+baseURL = "https://wilcoxphoto.com"
+languageCode = "en-us"
+theme = 'ananke'
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 6
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[params]
+  author = "Hayden Wilcox"
+  favicon = ""
+  site_logo = ""
+  description = "Videography and Photography services for your special events, weddings, and more."
+  featured_image = "/images/coast.webp"
+  background_color_class = "bg-black"
+  custom_css = ["css/gallery.css","css/main.css"]
+  custom_js = ["js/jquery-3.6.0.min.js","js/gallery.js"]
+  show_reading_time = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[params.ananke_socials]]
+  name = "facebook"
+
+[[params.ananke_socials]]
+  name = "twitter"
+
+[[params.ananke_socials]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/hayden-wilcox-7019ab83"
+
+[[params.ananke_socials]]
+  name = "youtube"
+  url = "https://www.youtube.com/user/Hayden7Wilcox"
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false

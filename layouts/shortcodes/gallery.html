@@ -1,0 +1,9 @@
+<div class="{{ .Get "class" }}">
+  {{ with resources.Match (.Get "src") }}
+    {{ range . }}
+      {{ $oldImg := . }}
+      {{ $img := $oldImg.Fill "275x175" }}
+      <img src="{{ $img.RelPermalink }}" onclick="openFullImg('{{ $oldImg.RelPermalink }}')">
+    {{ end }}
+  {{ end }}
+</div>
