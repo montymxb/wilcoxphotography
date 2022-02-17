@@ -1,0 +1,18 @@
+<div class="lr-slide">
+  <div class="l-subslide">
+    {{ if .Params.leftText }}
+      <p>{{ .Inner }}</p>
+    {{ end }}
+    {{ if .Params.leftImg }}
+      <img src="{{ .Params.leftImg }}" alt="{{ .Params.leftImgAlt }}">
+    {{ end }}
+  </div>
+  <div class="r-subslide">
+    {{ if .Params.rightText }}
+      <p>{{ .Inner }}</p>
+    {{ end }}
+    {{ if .Params.rightImg }}
+      <img src="{{ .Params.rightImg }}" alt="{{ .Params.rightImgAlt }}">
+    {{ end }}
+  </div>
+</div>

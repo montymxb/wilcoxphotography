@@ -1,31 +1,50 @@
 ---
 title: "Hayden Wilcox"
-description: "Videography and Photography services for your special events, weddings, and more."
-keywords: [hayden,wilcox,photo,video,photography,videography,services]
+description: "Videography and Photography services for events, weddings, and more."
+keywords: [hayden,wilcox,photo,video,photography,videography]
+featureImg: "/images/hayden.png"
 ---
 
-My name is Hayden and I'm a media producer, videographer and amatuer photographer.
-
-{{< figure src="/images/hayden.png" title="" class="feature-img" >}}
-
-In total I have been working in video production for eight years and during that time I have worked on a variety of projects, including commercial, non-profit, and educational materials.
-
-## Videography
-
-I've done videography work for Oregon State University, various organizations, and other private businesses. You can check out a quick demo-reel of my work below. [If you want to see a more comprehensive list of my videography work, you can click here](/video/).
-
-{{< youtube YLQR7DNNBjk >}}
+{{< slide leftText="ok" rightImg="/images/timberhill/hayden-cam.webp" rightImgAlt="A picture of Hayden Wilcox with a camera in his hand." >}}
+My name is <span class='b'>Hayden Wilcox</span>.
+<br/><br/>
+I'm a media producer, videographer and photographer in the Oregon area.
+<br/><br/>
+In total I have been working in video production for <span class='i'>8+ years</span>.
+<br/><br/>
+I have experience working on:
+<ul>
+  <li>Commercial advertising</li>
+  <li>Non-profit production</li>
+  <li>Educational media</li>
+</ul>
+And much, much more...
+{{< /slide >}}
 
 ## Photography
 
-{{< figure src="/images/weddings/9d6365_ac8ea5858a044a14a4e837da20af44b6mv2_002.jpg" >}}
-{{< figure src="/images/portraits/9d6365_55376fe19c1549148e33eac4bebb86bdmv2_002.jpg" >}}
-{{< figure src="/images/misc/9d6365_73b14d1e80b34b6d8082c58dfc847410mv2_002.jpg" >}}
+{{< slide leftText="ok" rightImg="/images/weddings/9d6365_ac8ea5858a044a14a4e837da20af44b6mv2_002.jpg" rightImgAlt="A photo of a woman holding a wedding bouquet." >}}
+I've done photography work for:
+<ul>
+  <li>Weddings</li>
+  <li>Portraits</li>
+  <li>Professional events</li>
+  <li>Other events</li>
+</ul>
+<br/><br/>
+<a href="/photo/">Read more about my photography work</a>.
+{{< /slide >}}
 
-I do photography for weddings, portraits, and other professional or informal events. [You can see more of my photography here](/photo/).
+## Videography
 
-## Contact
+{{< slide rightText="ok" leftImg="/images/murphys/img1.webp" leftImgAlt="An image from an advertisement Hayden designed for Murphy's Furniture Store." >}}
+I've done videography work for Oregon State University, various organizations, and other private businesses.
+<br/><br/>
+<a href="/video/">Read more about my videography work.</a>
+{{< /slide >}}
 
-If you're interested in creating a project together, please feel free to reach out to me below. I'm always interested to hear about ways to take ideas and concepts into the world of digital multimedia.
+## Interested?
+
+If you want to talk about creating a project together, please feel free to reach out to me below. I'm always interested to hear about ways to take ideas and concepts into the world of digital multimedia.
 
 {{< form-contact action="https://formspree.io/f/mzbobpge" >}}

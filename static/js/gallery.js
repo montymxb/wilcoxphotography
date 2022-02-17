@@ -12,7 +12,7 @@
       // create new overlay first
       let overlay = "<div id='overlay' class='' onclick='hideOverlay();'>";
       overlay += "<img id='overlay-img' src='" + id + "'>";
-      overlay += "<a href='#' onclick='hideOverlay();'>Close</a>";
+      overlay += "<input type='button' onclick='hideOverlay();' value='Close'>";
       overlay += "</div>";
       let body = document.getElementsByTagName("body")[0];
       body.insertAdjacentHTML('afterbegin', overlay);

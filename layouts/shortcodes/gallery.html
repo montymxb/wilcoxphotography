@@ -2,7 +2,7 @@
   {{ with resources.Match (.Get "src") }}
     {{ range . }}
       {{ $oldImg := . }}
-      {{ $img := $oldImg.Fill "275x175" }}
+      {{ $img := $oldImg.Fill "550x350" }}
       <img src="{{ $img.RelPermalink }}" onclick="openFullImg('{{ $oldImg.RelPermalink }}')">
     {{ end }}
   {{ end }}
