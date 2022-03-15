@@ -2,11 +2,12 @@
 
 .gallery {
   display: block;
+  text-align: center;
 }
 
 .gallery img {
   width: 275px;
-  height: 175px;
+  /*height: 175px;*/
   display: inline-block;
   transition: 0.3s;
 }
@@ -26,7 +27,7 @@
   left: 0;
   display: block;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   background: #000;
   z-index: 100;
 }
@@ -39,14 +40,19 @@
   padding: 8px;
 }
 
-#overlay a {
+#overlay input {
   text-align: center;
   font-size: 28px;
   display: block;
   color: #fff;
   transition: 0.3s;
+  margin: 0 auto;
+  background: none;
+  border-radius: 8px;
+  border-style: solid;
 }
 
-#overlay a:hover {
-  color: #ccc;
+#overlay input:hover {
+  color: #6cf;
+  border-color: #6cf;
 }
