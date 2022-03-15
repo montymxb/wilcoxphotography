@@ -32,7 +32,16 @@ input:hover {
 
 .lr-slide {
   display: flex;
-  margin-bottom: 6rem;
+  /*margin-bottom: 6rem;*/
+  /*
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #111;
+  background-blend-mode: overlay;
+  */
+  min-height: 500px;
 }
 
 .l-subslide, .r-subslide {
@@ -42,7 +51,90 @@ input:hover {
   padding: 8px;
 }
 
+.l-subslide .slide-img, .r-subslide .slide-img {
+  width: 425px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+}
+
+.l-subslide .slide-mini-img, .r-subslide .slide-mini-img {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 300px;
+  margin: 0 auto;
+  border: solid 1rem #000;
+  border-style: none none solid none;
+}
+
 /* Locks the cover background from moving */
 .bg-fixed {
   background-attachment: fixed;
+}
+
+/* Remove focus image at < 960px */
+.disappear-960 {
+  display: none;
+}
+
+@media(min-width: 960px) {
+  .disappear-960 {
+    display: inline;
+  }
+}
+
+/* Hide this element until <= 960px */
+.appear-960 {
+  display: none;
+}
+
+@media(max-width: 959px) {
+  .lr-slide {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .l-subslide, .r-subslide {
+    max-width: none;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .l-subslide img, .r-subslide img {
+    display: none;
+  }
+
+  /* Appear below 960 */
+  .appear-960 {
+    display: block;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-top: -1rem;
+  }
+
+  .bg-top {
+    background-position: center;
+  }
+}
+
+@media(max-width: 400px) {
+  .appear-960 {
+    min-height: 200px;
+  }
 }

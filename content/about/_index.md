@@ -2,7 +2,6 @@
 title: "About"
 description: "Videographer and Photographer"
 keywords: [about,hayden,wilcox,photo,video,photography,videography,services]
-featured_image: '/images/hayden.png'
 ---
 
 My name is Hayden and I'm a media producer, videographer and amatuer photographer.
@@ -24,4 +23,8 @@ On this site you'll find examples of my most recent projects which demonstrated 
 
 If you're interested in creating a project together, please feel free to reach out to me. I'm always interested to hear about ways to take ideas and concepts into the world of digital multimedia.
 
-[Interested? Contact me here.](/contact/)
+## Interested? 
+
+You can contact me below to start talking about your project.
+
+{{< form-contact action="https://formspree.io/f/mzbobpge" >}}

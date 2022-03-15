@@ -5,7 +5,7 @@ keywords: [hayden,wilcox,photo,video,photography,videography]
 featureImg: "/images/hayden.png"
 ---
 
-{{< slide leftText="ok" rightImg="/images/timberhill/hayden-cam.webp" rightImgAlt="A picture of Hayden Wilcox with a camera in his hand." >}}
+{{< slide leftText="ok" leftMiniImg="/images/hayden.png" rightImg="/images/misc/9d6365_32a6078902ce45b4ae6e1410c24483damv2_002.jpg" >}}
 My name is <span class='b'>Hayden Wilcox</span>.
 <br/><br/>
 I'm a media producer, videographer and photographer in the Oregon area.
@@ -23,7 +23,7 @@ And much, much more...
 
 ## Photography
 
-{{< slide leftText="ok" rightImg="/images/weddings/9d6365_ac8ea5858a044a14a4e837da20af44b6mv2_002.jpg" rightImgAlt="A photo of a woman holding a wedding bouquet." >}}
+{{< slide rightText="ok" rightMiniImg="/images/misc/9d6365_95c809ce440a41fc8ead5f04ed9a4b0fmv2_002.jpg" leftImg="/images/weddings/_HW52830-HDR.jpg" lStyle="background-position-x:-200px" leftImgAlt="A photo of a woman holding a wedding bouquet." >}}
 I've done photography work for:
 <ul>
   <li>Weddings</li>
@@ -37,7 +37,7 @@ I've done photography work for:
 
 ## Videography
 
-{{< slide rightText="ok" leftImg="/images/murphys/img1.webp" leftImgAlt="An image from an advertisement Hayden designed for Murphy's Furniture Store." >}}
+{{< slide leftText="ok" rStyle="background-position-x:-125px" leftMiniImg="/images/misc/9d6365_a38656c527f849ab9d1fbb669e0f7539mv2_002.jpg" rightImg="/images/murphys/img1.webp" rightImgAlt="An image from an advertisement Hayden designed for Murphy's Furniture Store." >}}
 I've done videography work for Oregon State University, various organizations, and other private businesses.
 <br/><br/>
 <a href="/video/">Read more about my videography work.</a>

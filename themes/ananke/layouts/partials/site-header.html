@@ -10,7 +10,7 @@
           {{ .Title | default .Site.Title }}
         </h1>
         {{ if .Params.featureImg }}
-        <img width=300 style="border-radius:300px" src="{{ .Params.featureImg }}" alt="A photo of Hayden Wilcox, photographer & videographer.">
+        <img class="disappear-960" width=300 style="border-radius:300px" src="{{ .Params.featureImg }}" alt="A photo of Hayden Wilcox, photographer & videographer.">
         {{ end }}
         {{ with .Params.description }}
           <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">

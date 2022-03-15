@@ -1,10 +1,23 @@
 <div class="lr-slide">
+  {{/* Extract the image to show at smaller screen sizes */}}
+  {{ $img := "" }}
+  {{ if .Params.leftImg }}
+  {{ $img = .Params.leftImg }}
+  {{ end }}
+  {{ if .Params.rightImg }}
+  {{ $img = .Params.rightImg }}
+  {{ end }}
+  <div class="appear-960" style="background-image:url({{ $img }})"></div>
+  {{/* Build L/R subslides (subsections) */}}
   <div class="l-subslide">
     {{ if .Params.leftText }}
       <p>{{ .Inner }}</p>
     {{ end }}
     {{ if .Params.leftImg }}
-      <img src="{{ .Params.leftImg }}" alt="{{ .Params.leftImgAlt }}">
+      <div class="slide-img" style="background-image:url('{{ .Params.leftImg }}');{{ .Params.lStyle }}"></div>
+    {{ end }}
+    {{ if .Params.leftMiniImg }}
+      <div class="slide-mini-img" style="background-image:url('{{ .Params.leftMiniImg }}')"></div>
     {{ end }}
   </div>
   <div class="r-subslide">
@@ -12,7 +25,10 @@
       <p>{{ .Inner }}</p>
     {{ end }}
     {{ if .Params.rightImg }}
-      <img src="{{ .Params.rightImg }}" alt="{{ .Params.rightImgAlt }}">
+      <div class="slide-img" style="background-image:url('{{ .Params.rightImg }}');{{ .Params.rStyle }}"></div>
+    {{ end }}
+    {{ if .Params.rightMiniImg }}
+      <div class="slide-mini-img" style="background-image:url('{{ .Params.rightMiniImg }}')"></div>
     {{ end }}
   </div>
 </div>
